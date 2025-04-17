@@ -1,6 +1,6 @@
-package assignment1;
+package assignment3;
 
-public class ScannerInput {
+public class CheckedExceptionUsingThrow {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
