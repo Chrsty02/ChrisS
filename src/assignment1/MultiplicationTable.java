@@ -1,5 +1,7 @@
 package assignment1;
 
+//TODO 5. Multiplication table
+
 import java.util.Scanner;
 
 public class MultiplicationTable {

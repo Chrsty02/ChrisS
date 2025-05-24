@@ -1,5 +1,6 @@
 package assignment1;
 
+//TODO 2. Sum of two number
 public class Sum {
 
 	public static void main(String[] args) {

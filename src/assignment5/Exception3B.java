@@ -60,4 +60,4 @@ public class Exception3B {
 	        // Check the balance
 	        System.out.println("Current balance: " + account.getBalance());
 	    }
-	}
+	}}

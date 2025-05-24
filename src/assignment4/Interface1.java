@@ -21,6 +21,10 @@ public class Interface1 {
 					
 					B interfaceDemonstartion = new B();
 					System.out.println("The sum of a and b in interface is:" + interfaceDemonstartion.sum());
-	}
+	};
 			}
+			
+			
+	
+			
 				

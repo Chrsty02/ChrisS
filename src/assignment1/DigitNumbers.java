@@ -1,5 +1,7 @@
 package assignment1;
 
+//TODO 6. Digits of the number using a loop
+
 public class DigitNumbers {
     public static void main(String[] args) {
         int number = 987654321; // You can change this number to test with different values
