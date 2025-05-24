@@ -42,22 +42,4 @@ public class Exception3B {
 	    }
 	}
 
-	// Main class to demonstrate the user-defined exception
-	public class Main {
-	    public static void main(String[] args) {
-	        BankAccount account = new BankAccount(100.0);
-
-	        // Deposit some money
-	        account.deposit(50.0);
-
-	        // Try to withdraw money
-	        try {
-	            account.withdraw(200.0); // This will throw InsufficientFundsException
-	        } catch (InsufficientFundsException e) {
-	            System.out.println("Error: " + e.getMessage());
-	        }
-
-	        // Check the balance
-	        System.out.println("Current balance: " + account.getBalance());
-	    }
-	}}
+	}
