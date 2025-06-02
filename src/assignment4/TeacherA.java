@@ -1,19 +1,15 @@
 package assignment4;
 
+//Teacher class
 public class TeacherA {
+ String designation = "Teacher";
+ String collegeName = "BusyQA";
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		String designation = "Teacher";
-		String collegeName = "BusyQA";
-	}
-		
-		void does()
-		{
-		System.out.print("Teaching");
-				
-	}
+ void does() {
+     System.out.println("Teaching");
+ }
 }
+
+
 
 		

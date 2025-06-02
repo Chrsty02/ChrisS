@@ -43,4 +43,7 @@ public class StudentGrades {
         studentGrades.forEach((name, grade) ->
             System.out.println(name + ": " + grade));
     }
+
+	public static void main(String[] args) {
+		}
 }

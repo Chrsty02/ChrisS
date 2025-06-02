@@ -1,31 +1,26 @@
 package assignment4;
 
-public class Interface1 {
+//Define the interface A
+interface A {
+ int a = 5; // By default, interface variables are public, static, and final
+ int b = 10;
 
-    public interface A {
-        int a = 10;
-        int b = 20;
-
-        int sum();
-    }
-
-    public class B implements A {
-        @Override
-        public int sum() {
-            return a + b;
-        }
-    }
-
-    public class Main {
-        public static void main(String[] args) {
-            Interface1 outerInstance = new Interface1();
-            B interfaceDemonstration = outerInstance.new B();
-            System.out.println("The sum of a and b in interface is: " + interfaceDemonstration.sum());
-        }
-    }
+ int sum(); // Method to be implemented by the class
 }
 
-			
-	
-			
-				
+//Class B implements interface A
+class B implements A {
+ // Implementing the sum method
+ public int sum() {
+     return a + b;
+ }
+}
+
+//Main class to test the implementation
+public class Interface1 {
+ public static void main(String[] args) {
+     B b = new B();
+     int result = b.sum();
+     System.out.println("The sum of a and b is: " + result);
+ }
+}

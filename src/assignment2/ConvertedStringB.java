@@ -3,19 +3,15 @@ package assignment2;
 //Java Program to convert int to string
 
 public class ConvertedStringB {
-	    {
-	        // Custom input integers
-	        int a = 1234;
-	        int b = -1234;
+	    public static void main(String[] args) {
+	        // Example integer
+	        int number = 12345;
 
-	        // Converting integer to string
-	        // using toString() method
-	        String str1 = Integer.toString(a);
-	        String str2 = Integer.toString(b);
+	        // Convert the integer to a string using Integer.toString()
+	        String numberAsString = Integer.toString(number);
 
-	        // Printing the above strings that
-	        // holds integer
-	        System.out.println("String str1 = " + str1);
-	        System.out.println("String str2 = " + str2);
+	        // Print out the result
+	        System.out.println("The integer " + number + " as a string is: " + numberAsString);
+
 	    }
 	}
